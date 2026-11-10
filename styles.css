@@ -507,3 +507,34 @@ h1, h2, h3, p { margin-top: 0; }h1 { font: 500 clamp(64px, 8vw, 108px)/.98 var(-
   margin-top: 8px;
 }
 
+
+/* Make About section span the full page width */
+#about .about-content {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+#about .about-content h2 {
+  width: 100%;
+  max-width: none;
+}
+
+#about .about-content .body-copy {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+#about .about-content .body-copy p {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Keep the section compact */
+#about {
+  min-height: 0 !important;
+  height: auto !important;
+  padding-top: 35px !important;
+  padding-bottom: 35px !important;
+}
