@@ -475,3 +475,35 @@ h1, h2, h3, p { margin-top: 0; }h1 { font: 500 clamp(64px, 8vw, 108px)/.98 var(-
 .about-content .body-copy p {
   margin-bottom: 18px;
 }
+
+
+/* About section: wider text and tighter vertical spacing */
+.intro#about {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+#about .about-content {
+  max-width: none;
+  width: 100%;
+}
+
+#about .about-content .body-copy {
+  max-width: none;
+  width: 100%;
+}
+
+#about .about-content .body-copy p {
+  max-width: none;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+#about .about-content h2 {
+  margin-bottom: 25px;
+}
+
+#about .about-content .text-link {
+  margin-top: 8px;
+}
+
