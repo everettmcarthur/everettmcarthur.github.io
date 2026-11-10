@@ -698,22 +698,12 @@ h1 {
   }
 }
 
-/* FULL-WIDTH MILKY WAY HERO */
-.hero {
-  width: 100%;
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
-  border-radius: 0;
-}
-
-/* Let the hero background extend across the entire screen */
+/* FULL-BLEED HERO BACKGROUND */
 .hero.section-shell {
   width: 100%;
   max-width: none;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: max(65px, calc((100vw - 1160px) / 2));
-  padding-right: max(65px, calc((100vw - 1160px) / 2));
+  margin: 0;
+  padding-left: max(32px, calc((100vw - 1160px) / 2));
+  padding-right: max(32px, calc((100vw - 1160px) / 2));
   border-radius: 0;
 }
