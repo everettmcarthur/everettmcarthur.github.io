@@ -959,3 +959,31 @@ h1 {
 
 }
 
+/* More compact About Me section */
+.about {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.about-copy {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-copy .section-kicker {
+  margin-bottom: 8px;
+}
+
+.about-copy h2 {
+  margin-bottom: 16px;
+}
+
+.about-copy p {
+  margin-bottom: 12px;
+  line-height: 1.65;
+}
+
+.about-copy .button {
+  margin-top: 8px;
+}
