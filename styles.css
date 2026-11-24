@@ -987,3 +987,89 @@ h1 {
 .about-copy .button {
   margin-top: 8px;
 }
+
+
+
+/* ABOUT SECTION */
+.about-section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr;
+  align-items: center;
+  gap: 70px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.about-copy {
+  text-align: left;
+  max-width: 680px;
+}
+
+.about-copy h2 {
+  margin-bottom: 20px;
+}
+
+/* CV PANEL */
+.about-cv {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 30px;
+  background: var(--panel);
+  border: 1px solid rgba(155, 184, 217, 0.2);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.about-cv:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.about-cv-icon {
+  font-size: 28px;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.about-cv-content h3 {
+  margin: 10px 0;
+  font-size: 1.25rem;
+}
+
+.about-cv-content p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  margin-bottom: 18px;
+}
+
+.about-cv-link {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* MOBILE */
+@media (max-width: 760px) {
+  .about-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-copy {
+    max-width: 100%;
+  }
+}
